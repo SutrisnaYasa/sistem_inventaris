@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+  width: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: color(grey);
+  border-radius: 10px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: color_darken(grey, 10%); }
+
+::-webkit-scrollbar:not(:focus) {
+  opacity: 0; }
+
+::-webkit-scrollbar:focus {
+  opacity: 1; }
+
+::-webkit-scrollbar:horizontal {
+  height: 5px; }
